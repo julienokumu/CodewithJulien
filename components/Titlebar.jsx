@@ -18,7 +18,7 @@ const Titlebar = () => {
       </div>
 
 
-      <p className={styles.title}><span className={styles.navCover}>Gee Brain - Visual Studio Code</span></p>
+      <p className={styles.title}><span className={styles.navCover}>Julien Okumu - CodewithJulien</span></p>
 
     </section>
   );

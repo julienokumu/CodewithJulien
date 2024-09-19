@@ -15,35 +15,23 @@ import LinkedInIcon from './icons/LinkedInIcon';
 const sidebarTopItems = [
   {
     Icon: FilesIcon,
-    path: '/',
-  },
-  {
-    Icon: WhatsAppIcon,
-    path: 'https://wa.me/2348166983737',
-  },
-  {
-    Icon: TwitterIcon,
-    path: 'https://x.com/gozkybrain4u',
+    path: "/",
   },
   {
     Icon: GithubIcon,
-    path: '/github',
-  },
-  {
-    Icon: FacebookIcon,
-    path: 'https://facebook.com/izuka.emmanuel',
-  },
-  {
-    Icon: LinkedInIcon,
-    path: 'https://www.linkedin.com/in/gozkybrain-izuka-75612024a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-  },
-  {
-    Icon: TikTokIcon,
-    path: 'https://www.tiktok.com/@gozkybrain',
+    path: "https://github.com/julienokumu",
   },
   {
     Icon: MailIcon,
-    path: 'mailto:gozkybrain@gmail.com',
+    path: "mailto:codewithjulien@gmail.com",
+  },
+  {
+    Icon: WhatsAppIcon,
+    path: "https://wa.me/254792137092",
+  },
+  {
+    Icon: TwitterIcon,
+    path: "https://x.com/julienokumu",
   },
 ];
 

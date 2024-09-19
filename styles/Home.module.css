@@ -41,6 +41,12 @@
     font-size: 12px;
     font-weight: bold;
 }
+.htmlIcon{
+    color: orangered;
+}
+.cssIcon{
+    color: blue;
+}
 
 .icon {
     font-size: 3rem;
@@ -74,11 +80,16 @@
 .rustIcon {
     color: #dea584;
 }
+.githubIcon{
+    color: black;
+}
 
 .mongodb-icon {
     color: #47a248;
 }
-
+.pythonIcon{
+    color: #0088aa;
+}
 .nodeIcon {
     color: #8cc84b;
 }

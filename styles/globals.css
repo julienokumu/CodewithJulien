@@ -28,12 +28,7 @@
   background: rgba(131, 205, 41, 0.25);
 }
 
-.javascript, .telegram {
-  border: 0.1rem solid rgb(67, 153, 52);
-}
-.javascript:hover, .telegram:hover {
-  background: rgba(67, 153, 52, 0.25);
-}
+
 
 .bootstrap {
   border: 0.1rem solid rgb(118, 74, 188);
@@ -42,19 +37,93 @@
   background: rgba(118, 74, 188, 0.25);
 }
 
-.api {
+.javascript{
+  border:0.1rem solid rgb(252, 227, 0)
+}
+.javascript:hover{
+  background: rgba(252, 227, 0, 0.25);
+}
+.firebase{
+  border: 0.1rem solid rgb(145, 179, 22);
+}
+.firebase:hover{
+  background: rgba(145, 179, 22, 0.25);
+}
+.tmdbapi{
+  border: 0.1rem solid rgb(0, 9, 19);
+}
+.tmdbapi:hover{
+  background: rgba(0, 9, 19, 0.25);
+}
+.python {
   border: 0.1rem solid rgb(82, 143, 240);
 }
-.api:hover {
+.python:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
-.firebases {
-  border: 0.1rem solid rgb(25, 118, 210);
+.flask {
+  border: 0.1rem solid rgb(160, 192, 224);
 }
-.firebases:hover {
+.flask:hover {
   background: rgba(25, 118, 210, 0.25);
 }
+.tailwind {
+  border: 2px solid rgb(6, 182, 212);
+}
+.tailwind:hover {
+  background: rgba(6, 182, 212, 0.25);
+}
+.matplotlib{
+  border: 2px solid rgb(0, 0, 0);
+}
+.matplotlib:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+.verticalpitch{
+  border: 2px solid rgb(240, 8, 209);
+}
+.verticalpitch:hover{
+  background: rgba(235, 125, 207, 0.25);
+}
+.jupyternotebook{
+  border: 2px solid rgb(235, 118, 9);
+}
+.jupyternotebook:hover{
+  background: rgba(235, 118, 9, 0.25);
+}
+span{
+  color: rgb(0, 112, 243);
+}
+
+
+.opencv{
+  border: 2px solid rgb(0, 0, 255);
+}
+.opencv:hover{
+  background: rgba(0, 0, 255, 0.25);
+}
+
+.css {
+  border: 2px solid rgb(68, 102, 126);
+}
+.css:hover {
+  background: rgba(21, 114, 182, 0.25);
+}
+.vite{
+  border: 0.1rem solid rgb(252, 227, 0);
+}
+.vite:hover {
+  background: rgba(252, 227, 0, 0.25);
+}
+.coingeckoapi{
+  border: 0.1rem solid rgb(0, 255, 64);
+}
+.coingeckoapi:hover{
+  background: rgba(0, 255, 64, 0.25);
+}
+
+
 
 .email, .express {
   border: 0.1rem solid rgb(0, 209, 178);

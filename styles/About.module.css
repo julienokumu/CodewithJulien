@@ -1,135 +1,207 @@
 /* styles/About.module.css */
 .about {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
 }
 
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 0fr 2fr 2fr;
-    gap: 20px;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 0fr 2fr 2fr;
+  gap: 20px;
+  width: 100%;
 }
 
-
 .imageContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #dedede;
-    box-shadow: 1px 3px 13px #1F2428;
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dedede;
+  box-shadow: 1px 3px 13px #1f2428;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 
 .textContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: flex-end;
-    align-items: flex-start;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 100%;
 }
 
 .textHead {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
+  font-size: 24px;
+  color: #0088cc;
 }
 
 .myImage {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .listItem {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: white;
+}
+.span {
+  color: white;
 }
 
 .icon {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .strong {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .paragraph {
-    margin-top: 20px;
-    font-size: 18px;
-    /* font-weight: 400px; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 .skillsSection {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .skillsSection h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .skillsGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* Two columns for skills */
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Two columns for skills */
+  gap: 20px;
 }
 
 .skill {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .skillName {
-    display: block;
-    /* font-weight: bold; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 5px;
+  display: block;
+  /* font-weight: bold; */
+
+  margin-bottom: 5px;
+}
+
+.skillsContainer {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  color: white;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skillItem p {
+  margin-top: 0.5rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.reactIcon {
+  color: #0088cc;
+}
+
+.react-native-icon {
+  color: #0088cc;
+}
+
+.cssIcon {
+  color: #264de4;
+}
+.htmlIcon{
+    color: #e34c26;
+}
+
+.bootstrap-icon {
+  color: #563d7c;
+}
+
+.wordpressIcon {
+  color: #0088aa;
+}
+
+.jsIcon {
+  color: #f7e018;
+}
+
+.rustIcon {
+  color: #dea584;
+}
+.githubIcon {
+  color: black;
+}
+
+.mongodb-icon {
+  color: #47a248;
+}
+.pythonIcon {
+  color: #0088aa;
+}
+.nodeIcon {
+  color: #8cc84b;
+}
+
+.firebase-icon {
+  color: #ffca28;
 }
 
 .progressBar {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 10px;
-    width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  width: 100%;
 }
 
 .progress {
-    background-color: #0088cc;
-    height: 100%;
-    width: 0;
-    transition: width 0.3s ease;
+  background-color: #0088cc;
+  height: 100%;
+  width: 0;
+  transition: width 0.3s ease;
 }
 
 /* Media Query for Devices with Max Width of 700px */
 @media (max-width: 700px) {
-    .grid {
-        grid-template-columns: 1fr;
-        /* Single column layout */
-        gap: 20px;
-    }
+  .grid {
+    grid-template-columns: 1fr;
+    /* Single column layout */
+    gap: 20px;
+  }
 
-    .skillsGrid {
-        grid-template-columns: 1fr;
-        /* Single column layout for skills on small screens */
-    }
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    /* Single column layout for skills on small screens */
+  }
 }

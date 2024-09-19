@@ -11,7 +11,7 @@ const Bottombar = () => {
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/Gozkybrain/Sarcastic-Geek"
+          href="https://github.com/julienokumu/CodewithJulien"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -26,8 +26,7 @@ const Bottombar = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.section}>
-          <NextjsIcon className={styles.icon} />
-          <p>Powered by Next.js</p>
+          <p>Developed by CodewithJulien</p>
         </div>
         <div className={styles.section}>
           <CheckIcon className={styles.icon} />
