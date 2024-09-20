@@ -8,6 +8,14 @@
     "source_code": "https://github.com/julienokumu/ScrappingHaalandsStats"
   },
   {
+    "id": 14,
+    "name": "Sentiment Analysis of IMDb Movie Reviews",
+    "image": "/sentimentanalysis.png",
+    "description": "This is a simple Sentiment Analysis System I built using Python, used to predict sentiment in IMDb Movie Reviews",
+    "tags": ["python"],
+    "source_code": "https://github.com/julienokumu/Sentiment-Analysis"
+  },
+  {
     "id": 13,
     "name": "Car Website",
     "image": "/carwebsite.png",
