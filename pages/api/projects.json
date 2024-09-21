@@ -78,6 +78,14 @@
     "demo": "https://stakehousebycodewithjulien.netlify.app/"
   },
   {
+    "id": 15,
+    "name": "Predicting FPL",
+    "image": "/predictfpl.png",
+    "description": "This is a Machine Learning Model that predicts the Top 11 players with the most points by the end of the season, using a dataset of the Fantasy Premier League 2024/25 season so far.",
+    "tags": ["python"],
+    "source_code": "https://github.com/julienokumu/Predicting-FPL-ML-"
+  },
+  {
     "id": 3,
     "name": "PacmanJS Game",
     "image": "/pacmanjs.png",
