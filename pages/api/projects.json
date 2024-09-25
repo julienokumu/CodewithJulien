@@ -69,6 +69,15 @@
     "demo": "https://herfumecwjulien.netlify.app/"
   },
   {
+    "id": 15,
+    "name": "JetSet Motors",
+    "image": "/jetsetmotors.png",
+    "description": "This is a simple Responsive Car Rental Website.",
+    "tags": ["javascript", "css", "html"],
+    "source_code": "https://github.com/julienokumu/JetSetMotors",
+    "demo": "https://julienokumu.github.io/JetSetMotors/"
+  },
+  {
     "id": 5,
     "name": "StakeHouse",
     "image": "/stakehouse.png",
