@@ -16,6 +16,14 @@
     "source_code": "https://github.com/julienokumu/Sentiment-Analysis"
   },
   {
+    "id": 17,
+    "name": "Image to Sketch Generator",
+    "image": "/imagetosketch.png",
+    "description": "This is a simple Image to Sketch Tool built using OpenCV, Numpy and Streamlit.",
+    "tags": ["python"],
+    "source_code": "https://github.com/julienokumu/Image-to-Sketch-Gen"
+  },
+  {
     "id": 13,
     "name": "Car Website",
     "image": "/carwebsite.png",
