@@ -103,6 +103,15 @@
     "source_code": "https://github.com/julienokumu/Predicting-FPL-ML-"
   },
   {
+     "id": 3,
+    "name": "o1-RAG",
+    "image": "/o1-rag.png",
+    "description": "A RAG Chatbot that enables you to chat using your uploaded PDF.",
+    "tags": ["python"],
+    "source_code": "https://github.com/julienokumu/o1-RAG",
+    "demo": "https://huggingface.co/spaces/julienokumu/o1-RAG"
+  },
+  {
     "id": 3,
     "name": "PacmanJS Game",
     "image": "/pacmanjs.png",
